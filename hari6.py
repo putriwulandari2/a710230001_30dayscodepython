@@ -12,6 +12,7 @@ class Buku:
         self.jumlah_halaman += tambahan
         print(f"Jumlah halaman {self.judul} sekarang: {self.jumlah_halaman}")
 
+
 buku1 = Buku("Anak Kost-Kostan", "Serena Tria", 2009, 341)
 buku2 = Buku("Suara dari Dilan", "Pidi Baiq", 2016, 360)
 
